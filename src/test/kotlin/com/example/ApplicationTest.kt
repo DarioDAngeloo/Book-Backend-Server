@@ -32,7 +32,7 @@ class ApplicationTest {
 
     @ExperimentalSerializationApi
     @Test
-    fun `access all heroes endpoint, query all pages, assert correct information`() =
+    fun `access all books endpoint, query all pages, assert correct information`() =
         testApplication {
             val heroRepository = BookRepositoryImpl()
             val pages = 1..3
